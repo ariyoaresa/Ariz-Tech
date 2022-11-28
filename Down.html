@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About Ariz Tech</title>
+    <style>
+       body{
+       background-color: #FFB0B0B0;
+      }
+      .all{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        bottom: 25%;
+      }
+      .total {
+        width: 700px;
+        background-color: #555;
+        max-width: 500px;
+        margin: auto;
+        border-style: solid;
+        border-color: blue;
+        border-radius: 8px;
+        padding: 18px;
+      }
+      .top {
+        background-color: white;
+        display: flex;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: blue;
+        transition: .5s ease-in-out ;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .top:hover {
+        background-color: #676767;
+      }
+      .below {
+        background-color: white;
+        border-color: blue;
+        border-radius: 8px;
+        border-style: solid;
+        display: none;
+        text-align: left;
+        padding: 3px;
+      }
+      .below p{
+          font-size: 22px;
+      }
+      .top label{
+        font-size: 60px;
+        text-align: left;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      h1{
+        color: blue;
+        font-size: 50px;
+        text-shadow: 10px 10px 10px black;
+      }
+
+    </style>
+  </head>
+  <body>
+    <center>
+         <div class="all">
+             <h1>About Ariz Tech</h1>
+      <div class="total">
+        <div class="top" onclick="openBelow1()">
+          <p>INTRODUCTION</p>
+          <label>↓</label>
+        </div>
+        <div class="below" id="below1">
+          <p>
+            The Ariz Tech Corporation is a technology company that has been in business since 2020. Our company is dedicated to the research and development of new and innovative technology products.
+          </p>
+          <p>
+              Our mission is to provide our customers with the best possible products and services, and we are committed to continuous improvement. We are proud of our history and our accomplishments, and we are looking forward to continued success in the future.
+          </p>
+        </div>
+      </div>
+      <div class="total">
+        <div class="top" onclick="openBelow2()">
+          <p>WHAT WE DO</p>
+          <label>↓</label>
+        </div>
+        <div class="below" id="below2">
+          <p>
+            We develop and manufacture innovative, stylish and high-quality consumer electronics. We focus on creating the perfect user experience and provide total customer satisfaction.
+          </p>
+          <p>
+              We know that people today want products that are not only stylish and modern but also practical and efficient. That's why we design our products with the user in mind, ensuring that they are easy to use and provide the best possible experience.
+          </p>
+          <p>
+              We are constantly working to improve our products and meet the needs of our customers. We believe that satisfaction is key, and we work hard to ensure that our products exceed your expectations.
+          </p>
+        </div>
+      </div>
+      <div class="total">
+        <div class="top" onclick="openBelow3()">
+          <p>OUR HISTORY</p>
+          <label>↓</label>
+        </div>
+        <div class="below" id="below3">
+          <p>
+            Ariz Tech was founded in 2019 by a college student, Ariyo.
+            He was looking for a way to make money during their summer
+            break, and they decided to start a technology company.
+          </p>
+          <p>
+              Today, Ariz Tech is a leading technology company, and Ariyo is still at the helm. They continue to bring new and innovative products to the market, and they're always looking for ways to improve their customer service.
+          </p>
+        </div>
+      </div>
+      <div class="total">
+        <div class="top" id="top" onclick="openBelow4()">
+          <p>OUR TEAM</p>
+          <label>↓</label>
+        </div>
+        <div class="below" id="below4">
+          <p>
+            We have a team of experts who are passionate about technology. They are constantly exploring new ways to improve the user experience and develop innovative solutions. Our team has a diverse range of skills and backgrounds, which helps us tackle complex challenges and deliver superior products.
+          </p>
+          
+        </div>
+      </div>
+      <div class="total">
+        <div class="top" onclick="openBelow5()">
+          <p>WHY WORK WITH US?</p>
+          <label>↓</label>
+        </div>
+        <div class="below" id="below5">
+          <p>
+            At Ariz Tech, we pride ourselves on being a one-stop-shop for all your technology needs. We provide comprehensive IT solutions for businesses of all sizes, including managed services, cloud computing, cybersecurity, and more.
+          </p>
+          <p>
+              In addition to our wide range of services, we also have a team of highly skilled and certified engineers who are always up-to-date on the latest technology trends. This means that we can provide you with the best possible service and support for your specific needs.
+          </p>
+          <p>
+              When you work with us, you can rest assured that your IT infrastructure is in good hands. We're here to help you grow and succeed, and we'll always go the extra mile to make sure you're happy with our services.
+          </p>
+          <p>
+              So if you're looking for a reliable and experienced IT partner, definitely give us a call. We'd be more than happy to chat with you about your needs and see how we can help.
+          </p>
+        </div>
+      </div>
+      <div class="total">
+        <div class="top" onclick="openBelow6()">
+          <p>CASE STUDIES</p>
+          <label>↓</label>
+        </div>
+        <div class="below" id="below6">
+          <p>
+            If you want to learn more about what we do here at Ariz Tech, then you should check out our <a href="#">case studies.</a> We have worked with some big names in the industry, and we have a lot of experience under our belt.
+          </p>
+          <p>
+              In each case study, we go into detail about the work we did, the challenges we faced, and the results we achieved. We also include testimonials from our clients so you can see what they thought of our work.
+          </p>
+          <p>
+              If you're thinking of working with us, then <a href="#">reading our case studies</a> is a great way to get an idea of what to expect. And if you're just curious about what we do, then they're a great way to learn more about our company and our process.
+          </p>
+        </div>
+      </div>
+      <div class="total">
+        <div class="top" onclick="openBelow7()">
+          <p>CONCLUSIONS</p>
+          <label>↓</label>
+        </div>
+        <div class="below" id="below7">
+          <p>
+            Ariz Tech is the best company for graphic design, website development, and cyber security. They are dedicated to their work and always deliver high-quality results. If you're looking for a company that you can trust to deliver the best possible results, then you need to look no further than Ariz Tech.In conclusion, Ariz Tech is the best company for all of your graphic design, website development, and cyber security needs. They are a reliable and trustworthy company that always delivers high-quality work. If you're looking for a company that you can trust to get the job done right, then you need to look no further than Ariz Tech.
+          </p>
+        </div>
+      </div>
+      </div>
+    </center>
+    <script>
+      function openBelow1() {
+        if(document.getElementById("below1").style.display === "block") {
+          document.getElementById("below1").style.display = "none";
+        } else {
+          document.getElementById("below1").style.display = "block";
+        }
+      }
+      function openBelow2() {
+        if (document.getElementById("below2").style.display == "block") {
+            document.getElementById("below2").style.display = "none"
+        } else {
+            document.getElementById("below2").style.display = "block"
+        }
+      }
+      function openBelow3() {
+        if (document.getElementById("below3").style.display == "block") {
+            document.getElementById("below3").style.display = "none"
+        } else {
+            document.getElementById("below3").style.display = "block"
+        }
+      }
+      function openBelow4() {
+        if (document.getElementById("below4").style.display == "block") {
+            document.getElementById("below4").style.display = "none"
+        } else {
+            document.getElementById("below4").style.display = "block"
+        }
+      }
+      function openBelow5() {
+        if (document.getElementById("below5").style.display == "block") {
+            document.getElementById("below5").style.display = "none"
+        } else {
+            document.getElementById("below5").style.display = "block"
+        }
+      }
+      function openBelow6() {
+        if (document.getElementById("below6").style.display == "block") {
+            document.getElementById("below6").style.display = "none"
+        } else {
+            document.getElementById("below6").style.display = "block"
+        }
+      }
+      function openBelow7() {
+        if (document.getElementById("below7").style.display == "block") {
+            document.getElementById("below7").style.display = "none"
+        } else {
+            document.getElementById("below7").style.display = "block"
+        }
+      }
+    </script>
+  </body>
+</html>
